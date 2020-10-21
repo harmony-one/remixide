@@ -1,7 +1,7 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=/remixide/plugin/favicon.ico><title>pluginone</title><script>const windowFetch = window.fetch;
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=favicon.ico><title>pluginone</title><script>const windowFetch = window.fetch;
       window.fetch = (...argv)=>{
         if(argv[0] == 'https://raw.githubusercontent.com/ethereum/remix-plugin/master/projects/client/assets/origins.json')
           return {json:()=>[]};
         //console.log("fetch:", argv);
         return windowFetch(...argv);
-      }</script><link href=/remixide/plugin/css/app.d321dcd7.css rel=preload as=style><link href=/remixide/plugin/js/app.383ea324.js rel=preload as=script><link href=/remixide/plugin/js/chunk-vendors.a60809af.js rel=preload as=script><link href=/remixide/plugin/css/app.d321dcd7.css rel=stylesheet></head><body><noscript><strong>We're sorry but pluginone doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/remixide/plugin/js/chunk-vendors.a60809af.js></script><script src=/remixide/plugin/js/app.383ea324.js></script></body></html>
+      }</script><link href=css/app.d321dcd7.css rel=preload as=style><link href=js/app.3bdbb135.js rel=preload as=script><link href=js/chunk-vendors.c28d749f.js rel=preload as=script><link href=css/app.d321dcd7.css rel=stylesheet></head><body><noscript><strong>We're sorry but pluginone doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=js/chunk-vendors.c28d749f.js></script><script src=js/app.3bdbb135.js></script></body></html>
